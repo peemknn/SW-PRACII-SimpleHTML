@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="register.js"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Eventify</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    <a class="nav-link active"
+                        href="register.html">Register</a>
+                    <a class="nav-link" href="#">Event</a>
+                    <a class="nav-link disabled" aria-disabled="true">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+       
+        <div class="container w-50 border rounded mt-5">
+            <form name="myForm" onsubmit="return validateForm()" method="post">
+                <div class="container mt-4">
+                    <div name="" class="mb-3">
+                        <label for="FormControlInput1" class="form-label">Company Name</label>
+                        <input class="form-control" name="comName" type="text" aria-label="default input example">
+                    </div>
+                    <div class="mb-3">
+                        <label for="FormControlInput1" class="form-label">Name</label>
+                        <input class="form-control" type="text" name="fName" aria-label="default input example">
+                    </div>
+                    <div class="mb-3">
+                        <label for="FormControlInput1" class="form-label">Telephone</label>
+                        <input class="form-control" type="tel" name="telNum" aria-label="default input example">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Sizing</label>
+                        <select class="form-select" name="sizeName" aria-label="Default select example">
+    
+                            <option selected value="1">10x10 ft.</option>
+                            <option value="2">10x15 ft.</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="FormControlInput1" class="form-label">Chair Amount</label>
+                        <input class="form-control" name="chairAmount" type="number" aria-label="default input example">
+                    </div>
+    
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Required Table
+                        </label>
+                    </div>
+                    <button class="btn btn-primary mb-3" type="submit">Submit</button>
+                </div>
+    
+        </div>
+    
+        </form>
+
+        </div>
+        
+
+
+
+</body>

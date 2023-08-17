@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(fonts/Roboto-Bold.ttf
+  );
+}
+img {
+  max-width: max-content;
+  object-fit: fill;
+  
+}
+.row {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+.navbar-brand{
+  font-family: Roboto-Bold;
+  margin-left: 16px;
+}
+
+a.nav-link{
+  font-family: Roboto-Regular;
+  margin: 16px
+}
+.main-card-body{
+  display: flex;
+  align-items: center;
+}
+.card-title{
+  font-family: Roboto-Bold;
+  font-size: 24px;
+}
+.card-text,.card-footer{
+  font-family: Roboto-Regular;
+  font-size: 16px;
+}
